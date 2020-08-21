@@ -8,6 +8,10 @@ namespace repos.Models
 
         public bool ShowRequestId => !string.IsNullOrEmpty(RequestId);
 
+        public DateTime TimeStamp {get;set;}
+
+        public Guid Id {get;set;}
+
         public string MetaData{get;set;}
     }
 }
