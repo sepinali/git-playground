@@ -9,5 +9,7 @@ namespace repos.Models
         public DateTime TimeStamp{get;set;}
 
         public Guid Id {get;set;}
+
+        public string MetaData{get;set;}
     }
 }
